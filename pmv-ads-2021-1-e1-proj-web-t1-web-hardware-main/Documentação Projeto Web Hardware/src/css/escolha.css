@@ -1,0 +1,27 @@
+.conteudoEscolha{
+    color: 	#f9f9f9;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px;
+}
+
+.conteudoEscolha .nota::first-letter{
+    text-transform: uppercase;
+}
+
+.conteudoEscolha .nota{
+    display: block;
+    text-transform: lowercase;
+}
+
+.conteudoEscolha button{
+    float: right;
+}
+
+@media(max-width: 500px){
+    .conteudoEscolha{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

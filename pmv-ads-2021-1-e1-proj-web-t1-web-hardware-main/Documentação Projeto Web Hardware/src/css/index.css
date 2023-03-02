@@ -1,0 +1,61 @@
+.principalDireito{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    left: 60%;
+}
+
+.principalDireito img{
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.principalEsquerdo{  
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    right: 40%;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #9F9A9A;  
+}
+
+.principalEsquerdo .conteudo{
+    width: 100%;
+    padding: 10% 0;
+    text-align: center;   
+}
+
+.principalTexto{
+    font-size: 36px;
+    font-weight: 400;
+    color: 	#f9f9f9;
+    cursor: pointer;
+    position: relative;
+    margin: 20% 0;
+
+}
+
+.principalTexto:hover{
+    text-shadow: 5px 5px 5px gray;
+    color: #C28323;
+}
+
+@media (max-width: 800px){
+    .principalDireito{
+        display: none;
+    }
+
+    .principalEsquerdo{
+        width: 100%;
+        right: 0;
+    }
+}
+
+@media (max-width: 600px){
+    .texto{
+        font-size: 25px;
+    }
+}

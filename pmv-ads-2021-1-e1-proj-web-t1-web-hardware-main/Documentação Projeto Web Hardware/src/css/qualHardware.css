@@ -1,0 +1,40 @@
+.sectionPrincipal{
+    margin: 30px 25% 0 25%;
+}
+
+@media screen and (max-width: 1300px) {
+    .sectionPrincipal{
+        margin: 30px 15% 0 15%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .sectionPrincipal{
+        margin: 30px 10% 0 10%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sectionPrincipal{
+        margin: 30px 5% 0 5%;
+    }
+}
+
+.sectionPrincipal h1{
+    margin: 0 0 5px 0;
+    border-bottom: 3px solid rgb(187, 187, 187);
+}
+
+.sectionPrincipal h2{
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.sectionPrincipal .imgCenter{
+    text-align: center;
+}
+
+.sectionPrincipal img{
+    max-width: 90%;
+    width: auto;
+    height: auto;
+}

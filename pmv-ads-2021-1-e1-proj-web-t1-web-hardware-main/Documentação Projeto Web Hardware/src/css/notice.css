@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+#notice-body {
+    background-color:#0D1115;
+    
+
+}
+
+#slider {
+    width: 80%;
+    max-width: 800px;
+    height: 300px;
+    max-height: 500px;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 100px;
+    display: flex;
+}
+
+#slider img {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+    
+}
+
+
+#slider img.selected {
+    opacity: 1;
+}
+.aside {
+   
+    width: 900px;
+    height: 26  00px;
+    padding: 100px;
+    margin-right: 800px ;
+    position: absolute;
+    margin-left: 50%;
+    
+    
+}
+.aside #nvidia {
+    position: relative;
+    background-color:#FAF9F6;
+    padding: 80px;
+    width: 800px;
+    border-radius: 3px;
+}
+.aside #amd {
+    background-color:#FAF9F6;
+    position: relative;
+    padding: 80px;
+    width: 800px;
+    height: 900px;
+    margin-top: 50px;
+    border-radius: 3px;
+    
+    
+}
+.aside .amd-icon {
+    width: 300px;
+    position: absolute;
+    margin-left: 500px;
+    border-radius: 5px;
+}
+
+#nvidia .nvidia-icon {
+    width: 300px;
+    position: absolute;
+    margin-left: 500px;
+    border-radius: 5px;
+}
+
+#nvidia h1 {
+    color: black;
+    font-size: 80px;
+}
+
+#amd h1 {
+    color: black;
+    font-size: 80px;
+}
+
+#amd h2 {
+    
+margin-top: 80px;
+
+}
+
+#amd img.ryzen-picture {
+   margin-left: 50px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+}
+
+
+#nvidia img.graphic {
+    width: 600px;
+    position: relative;
+    border-radius: 2px;
+    margin-left: 60px;
+}
+
+#colun {
+    
+    margin-left: 100px;
+    width: 1100px;
+    height: 800px;
+    border-radius: 5px;
+    margin-top: 100px;
+    height: 2600px;
+    
+}
+
+#colun #corsair {
+position:absolute;
+margin-top: 450px;
+margin-left: 100px;
+background-color: 	#f9f9f9;
+border-radius: 3px;
+padding: 20px;
+width: 900px;
+height: 2100px;
+}
+
+#colun #corsair .title{
+    margin-left: 50px;
+    color: black;
+    font-size: 80px;
+    }
+
+#corsair img {
+    width: 650px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#corsair h2 {
+    font-size: 30px;
+    margin-top: 80px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black
+     
+}
+
+#corsair .corsair-icon {
+    width: 300px;
+    position: absolute;
+    margin-left: 540px;
+    margin-bottom: 400px;
+}
+
+@media (max-width: 2115px){
+#slider {
+    width: 80%;
+    max-width: 650px;
+    height: 300px;
+    max-height: 500px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 20px;
+        
+}
+
+#colun #corsair {
+    position:absolute;
+    margin-top: 400px;
+    margin-left: 150px;
+    background-color: 	#f9f9f9;
+    border-radius: 3px;
+    padding: 30px;
+    width: 700px;
+    }
+
+        
+
+#corsair img {
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#corsair .corsair-icon {
+    width: 200px;
+    position: absolute;
+    margin-left: 450px;
+    margin-bottom: 400px;
+}
+
+.aside {
+   
+    width: 600px;
+    height: 2600px;
+    padding: 80px;
+    margin-right: 800px ;
+    position: absolute;
+    margin-left: 50%;
+    float: initial;
+            
+}
+
+.aside #nvidia {
+    position: relative;
+    background-color:#FAF9F6;
+    padding: 30px;
+    width: 700px;
+    align-items: initial;
+    border-radius: 3px;
+}
+
+        
+
+.aside #amd {
+    background-color:#FAF9F6;
+    position: relative;
+    padding: 30px;
+    width: 700px;
+    height: 950px;
+    margin-top: 50px;
+    border-radius: 3px;
+            
+}
+
+#amd .amd-icon {
+    width: 200px;
+    position: absolute;
+    margin-left: 500px;
+    border-radius: 5px;
+}
+        
+#nvidia .nvidia-icon {
+    width: 200px;
+    position: absolute;
+    margin-left: 500px;
+    border-radius: 5px;
+}
+
+#nvidia img.graphic {
+    width: 450px;
+    position: relative;
+    border-radius: 2px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#amd img.ryzen-picture {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+    
+}
+
+@media (max-width: 1886px){
+           
+           
+#slider {
+    width: 70%;
+    max-width: 650px;
+    height: 300px;
+    max-height: 500px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+                
+}
+
+#colun #corsair {
+    position:absolute;
+    margin-top: 400px;
+    margin-left: 40px;
+    background-color: 	#f9f9f9;
+    border-radius: 3px;
+    padding: 30px;
+    width: 700px;
+}
+
+
+.aside #nvidia {
+    position: relative;
+    background-color:#FAF9F6;
+    padding: 30px;
+    width: 700px;
+    align-items: initial;
+    border-radius: 3px;
+}
+                
+.aside #amd {
+    background-color:#FAF9F6;
+    position: relative;
+    padding: 30px;
+    width: 700px;
+    height: 950px;
+    margin-top: 50px;
+    border-radius: 3px;
+                    
+}
+
+#amd .amd-icon {
+    width: 200px;
+    position: absolute;
+    margin-left: 500px;
+    border-radius: 5px;
+}
+                
+#nvidia .nvidia-icon {
+    width: 200px;
+    position: absolute;
+    margin-left: 500px;
+    border-radius: 5px;
+}
+
+}
+
+@media (max-width: 1766px){
+#slider {
+    width: 70%;
+    max-width: 650px;
+    height: 300px;
+    max-height: 500px;
+    position: absolute;
+    margin-left: 53px;
+    margin-top: 20px;
+    border-radius: 5px;
+                
+}
+
+#colun #corsair {
+    position:absolute;
+    margin-top: 350px;
+    margin-left: 5px;
+    background-color: 	#f9f9f9;
+    border-radius: 3px;
+    padding: 20px;
+    width: 700px;
+}
+
+
+.aside #nvidia {
+    position: relative;
+    background-color:#FAF9F6;
+    padding: 20px;
+    width: 700px;
+    align-items: initial;
+    border-radius: 3px;
+    margin-right: 30px;
+}
+
+.aside #amd {
+    background-color:#FAF9F6;
+    position: relative;
+    padding: 20px;
+    width: 700px;
+    height: 950px;
+    margin-top: 50px;
+    border-radius: 3px;
+    margin-right: 5px;
+                    
+}
+
+#colun {
+    margin-left: 70px;
+    width: 400px;
+    height: 800px;
+    border-radius: 5px;
+    margin-top: 100px;
+    height: 2600px;
+                    
+}
+
+.aside {
+    width: 600px;
+    height: 2600px;
+    padding: 80px;
+    margin-right: 800px;
+    position: absolute;
+    margin-left: 45%;
+    float: initial;
+                    
+}
+}
+
+@media (max-width: 1676px){
+.aside {
+                       
+    width: 600px;
+    height: 2200px;
+    padding: 80px;
+    margin-right: 800px ;
+    position: absolute;
+    margin-left: 50%;
+    float: initial;
+                    
+}
+
+#colun {
+    
+    margin-left: 40px;
+    width: 400px;
+    height: 650px;
+    border-radius: 5px;
+    margin-top: 100px;
+    height: 2300px;
+                    
+}
+
+#slider {
+    width: 70%;
+    max-width: 550px;
+    height: 300px;
+    max-height: 500px;
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 20px;
+                    
+}
+
+#colun h2 {
+    font-size: 20px;
+    text-align: center;
+
+                        
+}
+
+.aside h2 {
+    font-size: 20px;
+    text-align: center;
+                    
+}
+
+.aside h4 {
+    text-align: justify;
+}
+
+#colun #corsair {
+    position:absolute;
+    margin-top: 350px;
+    margin-left: 5px;
+    background-color: 	#f9f9f9;
+    border-radius: 3px;
+    padding: 30px;
+    width: 550px;
+    height: 1850px;
+} 
+
+.aside #nvidia {
+    position: relative;
+    background-color:#FAF9F6;
+    padding: 30px;
+    width: 550px;
+    align-items: initial;
+    border-radius: 3px;
+}
+            
+                    
+            
+.aside #amd {
+    background-color:#FAF9F6;
+    position: relative;
+    padding: 30px;
+    width: 550px;
+    height: 950px;
+    margin-top: 50px;
+    border-radius: 3px;
+                        
+}
+
+#amd .amd-icon {
+    width: 200px;
+    position: absolute;
+    margin-left: 250px;
+    border-radius: 5px;
+}
+                    
+#nvidia .nvidia-icon {
+    width: 200px;
+    position: absolute;
+    margin-left: 300px;
+    border-radius: 5px;
+}
+            
+#nvidia img.graphic {
+    width: 450px;
+    position: relative;
+    border-radius: 2px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+            
+#amd img.ryzen-picture {
+                
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+#corsair img {
+width: 400px;
+margin-left: 80px;
+margin-top: 15px;
+margin-bottom: 15px;
+border-radius: 5px;
+}
+            
+#corsair .corsair-icon {
+    width: 150px;
+    position: absolute;
+    margin-left: 400px;
+    margin-bottom: 400px;
+}
+}
+
+@media (max-width: 1440px){
+        
+                    
+
+#colun {
+    
+    margin-left: 40px;
+    width: 400px;
+    height: 800px;
+    border-radius: 5px;
+    margin-top: 100px;
+    height: 2600px;
+                            
+}
+
+
+#slider {
+    width: 70%;
+    max-width: 530px;
+    height: 300px;
+    max-height: 500px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+                            
+}
+                        
+#colun h4 {                         
+    text-align: justify;   
+
+}
+
+#colun h2 {                         
+    text-align: justify;   
+
+}
+                    
+    #colun #corsair {
+    position:absolute;
+    margin-top: 350px;
+    margin-left: 50px;
+    background-color: 	#f9f9f9;
+    border-radius: 3px;
+    padding: 30px;
+    width: 600px;
+    height: 2000px;
+}
+                    
+                            
+                    
+    #corsair img {
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 30px;
+     margin-bottom: 30px;
+    border-radius: 5px;
+    }
+                    
+    #corsair .corsair-icon {
+    width: 150px;
+    position: absolute;
+    margin-left: 450px;
+    margin-bottom: 400px;
+}
+                    
+.aside {
+                       
+    width: 600px;
+    height: 2600px;
+    padding: 80px;
+    margin-right: 800px ;
+    position: absolute;
+    margin-left: 50%;
+    float: initial;
+                                
+}
+                    
+.aside #nvidia {
+    position: relative;
+    background-color:#FAF9F6;
+    padding: 30px;
+    width: 500px;
+    align-items: initial;
+    border-radius: 3px;
+}
+                               
+    .aside #amd {
+    background-color:#FAF9F6;
+    position: relative;
+    padding: 30px;
+    width: 500px;
+    height: 1100px;
+    margin-top: 50px;
+    border-radius: 3px;
+                                
+}
+                    
+#amd .amd-icon {
+     width: 200px;
+    position: absolute;
+    margin-left: 250px;
+    border-radius: 5px;
+}
+                            
+#nvidia .nvidia-icon{
+    width: 170px;
+    position: absolute;
+    margin-left: 320px;
+    border-radius: 5px;
+}
+                    
+#nvidia img.graphic{
+    width: 450px;
+    position: relative;
+    border-radius: 2px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+                    
+#amd img.ryzen-picture{
+                        
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+}
+@media (max-width: 1376px){
+#colun #corsair {
+
+    height: 2100px;
+    
+}
+
+#colun {
+    position: absolute;
+}
+
+#corsair
+
+.aside #amd{
+    height: 1100px;
+    margin-top: 4550px;
+    visibility: hidden;
+    
+}
+
+#slider {
+    width: 800px;
+}
+
+.aside #nvidia {
+    margin-right: 1500px;
+}
+}
+
+@media (max-width: 1359px){
+    .aside {
+        visibility: hidden;
+        display: none;
+    }
+
+    #slider {
+        margin-left: 350px;
+    }
+
+    #colun #corsair {
+        position: relative;
+        margin-left: 300px;
+    }
+
+    @media (max-width: 1062px){
+    #slider {
+        margin-left: 170px;
+    }
+
+    #colun #corsair {
+        margin-left: 110px;
+    }
+    
+    }
+
+    @media (max-width: 800px){
+    #slider {
+        width: 250px;
+        margin-left: 20px;
+    }
+
+    #colun #corsair {
+        width: 200px;
+        margin-left: 20px;
+        height: 2900px;
+    }
+
+    #colun #corsair .title {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    #corsair img {
+    width: 100px;
+    margin-left: 50px;
+    }
+
+    #corsair img.corsair-icon {
+        margin-left:60px;
+        margin-top: 80px;
+        width: 80px;
+    }
+        
+    }
+}

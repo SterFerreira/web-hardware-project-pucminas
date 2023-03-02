@@ -1,0 +1,76 @@
+.contentEscolhasUpgrade{
+    margin: 0 10% 0;
+}
+
+.contentEscolhasUpgrade > div{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contentEscolhasUpgrade .box{
+    width: 200px;
+    height: 250px;
+    margin: 25px 10px -5px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    color: 	#f9f9f9;
+    background: rgba(0,0,0,.5);
+}
+
+.contentEscolhasUpgrade h3{
+    color: 	#f9f9f9;
+}
+
+.contentEscolhasUpgrade .box img{
+    width: 100%;
+    height: 50%;
+}
+
+.buttonComprarUpgrade{
+    text-align: center;
+    color: #f9f9f9;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding:10px;
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    background-color: #269442;
+    box-shadow:0 5px 0  #166d00;
+}
+
+.buttonComprarUpgrade:hover{
+    background-color: #44e43e;
+    box-shadow:0 5px 0 #166d00;
+}
+
+ .buttonComprarUpgrade:active{
+    box-shadow:none;
+    box-shadow:0 5px 0 #005704;
+}
+
+.escurecerBox{
+    display: none;
+}
+
+.pdfEscolhasUpgrade{
+    margin: 20px 10% 20px;
+    float: right;
+}
+
+@media (max-width:615px){
+    .contentEscolhasUpgrade > div{
+        display: block;
+        text-align: -webkit-center;
+    }
+
+    .contentEscolhasUpgrade > div p{
+        display: block;
+        text-align: left;
+    }
+}

@@ -1,0 +1,56 @@
+.contentPerfil{
+    margin: 10px 10px 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.perfilPart{
+    margin: 0 0 20px 0;
+    width: 30%;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #9F9A9A;  
+}
+
+.perfilPart:last-child{
+    border-style: none;
+}
+
+.perfilPart p{
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.perfilPart img{
+    width: 100%;
+    max-width: 285px;
+    height: auto;
+}
+
+@media (max-width: 1000px){
+    .contentPerfil{
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .perfilPart{
+        width: 70%;
+        margin: 0 20%;
+        border-width: 0px 0px 1px 0px;
+    }
+}
+
+@media (max-width: 800px){
+    .perfilPart{
+        margin: 0 10%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px){
+    .perfilPart{
+        margin: 0 2%;
+        width: 100%;
+    }
+}

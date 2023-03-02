@@ -1,0 +1,84 @@
+.principalHardware{
+    display: flex;
+    flex-flow: wrap;
+    margin: 0 5%;
+    padding: 50px;
+}
+
+.principalHardware .card {
+    display: inline-block;
+    margin: 10px;
+}
+
+.principalHardware .card .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;    
+}
+
+.principalHardware .card .face.faceSuperior {
+    position: relative;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    z-index: 1;
+    transform: translateY(110px);
+}
+
+.principalHardware .card:hover .face.faceSuperior {
+    transform: translateY(0);
+}
+
+.principalHardware .card .face.faceInferior {
+    position: relative;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.principalHardware .card .face.faceInferior .content p{
+    text-align: left;
+}
+
+.principalHardware .card .face.faceInferior .content a:hover{
+    cursor: pointer;
+}
+
+.principalHardware .card .face.faceInferior .content{
+    text-align: center;
+}
+
+.principalHardware .card .face.faceSuperior .content {
+    opacity: 0.1;
+}
+
+.principalHardware .card:hover .face.faceSuperior .content {
+    opacity: 1;
+}
+
+.principalHardware .card .face.faceSuperior .content img {
+    max-width: 100px;
+}
+
+.principalHardware .card .face.faceSuperior .content h3 {
+    margin: 10px 0 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+@media (max-width: 845px){
+    .principalHardware{margin: 0;}
+}
+
+@media (max-width: 760px){
+    .principalHardware{padding: 0;}
+}
+
+@media (max-width: 660px){
+    .card{display: block;}
+    .principalHardware{justify-content: center;}
+}
